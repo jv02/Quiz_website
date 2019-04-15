@@ -1,0 +1,36 @@
+#header1{
+  background:url("img/3.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+ 
+}
+.tabs.indicator{
+	background-color: #1a237e;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+	background:transparent;
+}
+@media screen and (max-width: 670px){
+	#header1{
+		min-height: 500px;
+	}
+}
+
+
+#nav1{
+	background:url("img/3.jpg");
+  	background-size: cover;
+  	background-position: center;
+	min-height: 70px;
+}
+@media screen and (max-width: 670px){
+	#nav1{
+		min-height: 60px;
+	}
+
+}
+
+#login_form{
+
+}
